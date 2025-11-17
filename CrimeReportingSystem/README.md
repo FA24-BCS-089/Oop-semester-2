@@ -38,64 +38,64 @@ The Crime Reporting System uses a role-based access control (RBAC) structure, le
 
 Follow these steps to clone the repository and run the application locally.
 
-- **Prerequisites**
+ **Prerequisites**
 
 - **Java Development Kit (JDK):** Ensure you have JDK 8 or later installed.
 
 - **JavaFX SDK:** Since this project uses JavaFX, you may need to configure your IDE or build tool to include the JavaFX libraries, depending on your JDK version.
 
-- **Installation and Execution**
+ **Installation and Execution**
 
 - **Clone the Repository:**
 
-git clone [Your Repository URL Here]
+git clone [https://github.com/FA24-BCS-089/Oop-semester-2.git]
 cd CrimeReportingSystem
 
 
-Open in IDE:
+- **Open in IDE:**
 
 Open the project folder (CrimeReportingSystem) in your preferred Java IDE (IntelliJ IDEA, Eclipse, etc.).
 
-Configure JavaFX (If Needed):
+- **Configure JavaFX (If Needed):**
 
 If your IDE doesn't automatically detect JavaFX, you may need to add the JavaFX SDK as a library to the project structure and configure the module path settings for running JavaFX applications.
 
-Run the Main Class:
+- **Run the Main Class:**
 
 Locate the MainApp.java class (typically in the gui package).
 
 Run the application from the main method within MainApp.java.
 
-🗺️ Project Structure
+**Project Structure**
 
 The key directories and files are organized as follows:
 
-Directory
+-Directory
 
-Description
+-Description
 
-src/
+-src/
 
 Contains all the Java source code (.java files).
 
-src/gui/
+-src/gui/
 
 JavaFX classes defining the graphical user interface.
 
-src/services/
+-src/services/
 
 Contains the business logic, such as AuthServices and CrimeServices.
 
-src/models/
+-src/models/
 
 Core domain classes (e.g., Citizen, PoliceOfficer, CrimeReport, Location).
 
-🤝 Contribution
+**Contribution**
 
 This project was developed by:
 
-Laraib Qadeer (FA24-BCS-047)
+-Laraib Qadeer (FA24-BCS-047)
 
-Namirah Manzoor (FA24-BCS-089)
+-Namirah Manzoor (FA24-BCS-089)
 
 Feel free to explore the code and see how the OOP principles were applied!
